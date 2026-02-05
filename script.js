@@ -50,6 +50,7 @@ addBtn.addEventListener("click", () => {
 
     removeBtn.addEventListener("click", () => {
         li.remove();
+        updateTaskCnt();
     });
 
     // adding the created nodes onto the list
