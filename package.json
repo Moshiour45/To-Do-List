@@ -4,8 +4,8 @@
     "tailwindcss": "^4.1.18"
   },
 
-  "scripts" :{
-    "build" : "npx @tailwindcss/cli -i ./src/input.css -o output.css --minify",
-    "dev" : "npx @tailwindcss/cli -i ./src/input.css -o output.css --watch"
-  }
+  "scripts": {
+  "build": "tailwindcss -i ./src/input.css -o ./public/output.css --minify",
+  "dev": "tailwindcss -i ./src/input.css -o ./public/output.css --watch"
+}
 }
